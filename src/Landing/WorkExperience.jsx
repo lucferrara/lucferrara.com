@@ -42,19 +42,19 @@ export default function WorkExperience() {
     return (
         <div className="d-flex flex-column align-items-center pt-2">
             <h3>Experience</h3>
-            <div className="d-flex flex-column align-items-start ps-5 ms-5">
-                <JobInfo logo="golinks_logo.jpg" 
-                        company="GoLinks" 
-                        title="Full-Stack Engineer" 
-                        startDate="May 2025" 
-                        endDate="Present"
-                        description={DESCRIPTION_GOLINKS} />
+            <div className="d-flex flex-column align-items-start ps-5 ms-5">                
                 <JobInfo logo="khoury_college_logo.jpg " 
                         company="Khoury College of Computer Sciences - Northeastern" 
                         title="Head Teaching Assistant" 
                         startDate="September 2025" 
                         endDate="Present" 
                         description={DESCRIPTION_KHOURY} />
+		<JobInfo logo="golinks_logo.jpg" 
+                        company="GoLinks" 
+                        title="Full-Stack Engineer" 
+                        startDate="May 2025" 
+                        endDate="November 2025"
+                        description={DESCRIPTION_GOLINKS} />
                 <JobInfo logo="inteletravel_com_logo.jpg " 
                         company="InteleTravel" 
                         title="Software Application Engineer" 
